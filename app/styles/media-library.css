@@ -1,0 +1,18 @@
+.image-container{
+	border:2px dashed #ddd;
+	padding: 30px;
+	text-align: center;
+	width: 100%;
+	height:250px;
+}
+
+.form-group label {
+    color: #000;
+}
+
+.btn:disabled, .input-group-btn .btn:disabled, .btn-group:disabled, .btn-group-vertical:disabled, .btn[disabled][disabled], .input-group-btn .btn[disabled][disabled], .btn-group[disabled][disabled], .btn-group-vertical[disabled][disabled] {
+    color: #000;
+    background: transparent;
+}
+
+

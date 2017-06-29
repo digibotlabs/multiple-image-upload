@@ -1,0 +1,32 @@
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="panel panel-primary">
+				<div class="panel-body">
+					<h3>
+						Add Images to Media Library
+					</h3>
+					<div class="form-group1">
+						<input 
+				  		type="file" 
+				  		id='file'
+				  		name='file'
+				  		multiple
+				  		style="border: 1px solid #000;"
+				  		placeholder="Select Image" 
+				  		onchange="angular.element(this).scope().getFileDetails(this)" 
+				  		class="form-control">	
+					</div>					  
+			  		<div class="form-group">
+						<button 
+							class="btn btn-primary btn-block"
+							ng-click="uploadMedia()">
+							Upload
+						</button>
+					</div>
+					{{message}}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

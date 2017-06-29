@@ -1,0 +1,18 @@
+//GENERATES BOTH VIEW & CONTROLLER
+yo angular:route myroute
+
+//GENERATES ONLY CONTROLLER
+yo angular:controller user
+
+//Generates a directive in app/scripts/directives.
+yo angular:directive myDirective
+
+//Generates a filter in app/scripts/filters.
+yo angular:filter myFilter
+
+//Generates an HTML view file in app/views.
+yo angular:view user
+
+//Generates an AngularJS service.
+yo angular:service myService
+
